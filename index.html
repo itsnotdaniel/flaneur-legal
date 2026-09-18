@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Flâneur · Confidentialité / Privacy</title>
+<meta name="description" content="Ce que l'application Flâneur fait, et ne fait pas, de vos données. What the Flâneur app does, and does not do, with your data."/>
+<style>
+  :root{color-scheme:light dark;--bg:#F7F1E8;--text:#1F1814;--sub:#6B5C4F;--accent:#C27C5D;--line:rgba(31,24,20,.12)}
+  @media (prefers-color-scheme:dark){:root{--bg:#1F1814;--text:#F7F1E8;--sub:#B6A698;--accent:#D88A6B;--line:rgba(247,241,232,.14)}}
+  html,body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+  main{max-width:680px;margin:0 auto;padding:40px 20px 80px}
+  h1{font-family:Georgia,"Times New Roman",serif;font-style:italic;font-weight:400;font-size:34px;margin:0 0 4px;letter-spacing:-.01em}
+  h2{font-size:15px;letter-spacing:.09em;text-transform:uppercase;color:var(--accent);margin:36px 0 10px}
+  p,li{margin:0 0 12px;text-wrap:pretty}
+  ul{padding-left:20px}
+  .sub{color:var(--sub);font-size:14px;margin-bottom:28px}
+  .lang{display:flex;gap:8px;margin:0 0 28px}
+  .lang a{color:var(--text);text-decoration:none;border:1px solid var(--line);border-radius:20px;padding:6px 14px;font-size:14px}
+  .todo{background:rgba(201,123,90,.12);border-left:3px solid var(--accent);padding:10px 14px;border-radius:6px;font-size:14px}
+  hr{border:0;border-top:1px solid var(--line);margin:48px 0}
+  [lang=en] h1{font-style:italic}
+</style>
+</head>
+<body>
+<main>
+  <nav class="lang" aria-label="Langue / Language"><a href="#fr">Français</a><a href="#en">English</a></nav>
+
+  <section id="fr">
+    <h1>Flâneur</h1>
+    <p class="sub">Politique de confidentialité · version du 18 septembre 2026</p>
+
+    <p>Flâneur est un audioguide de marche : des lieux racontés par une voix, sur une carte. Cette page dit, sans jargon, ce que l'application fait de vos données. Elle décrit le fonctionnement réel de l'app, pas des intentions.</p>
+
+    <h2>Ce qui reste sur votre appareil</h2>
+    <p>Vos favoris, les lieux écoutés, vos points et votre niveau, la position d'écoute d'une narration, votre itinéraire personnel, les tours en cours et vos réglages (langue, taille du texte, apparence, sons, lecture à l'approche) sont enregistrés uniquement sur votre téléphone. Il n'y a pas de compte, pas d'identifiant, et Flâneur ne les envoie nulle part.</p>
+    <p>Conséquence : si vous désinstallez l'application, cette progression est perdue, et elle ne suit pas d'un appareil à l'autre.</p>
+
+    <h2>La position</h2>
+    <p>La position n'est demandée que si vous touchez « Me localiser » ou si vous activez « Lecture à l'approche » dans les réglages. Elle sert sur l'appareil, pour trier les lieux par distance, afficher votre point sur la carte et lancer une narration quand vous approchez d'un lieu. Flâneur ne l'enregistre pas et ne la transmet à personne. Quand vous ouvrez un itinéraire dans l'application de cartes de votre téléphone, seules les coordonnées du lieu de destination lui sont transmises, jamais votre position.</p>
+    <p><strong>Notifications à proximité (facultatif).</strong> Si vous activez cette option dans les réglages, Flâneur demande l'accès à la position « Toujours ». iOS surveille alors, sur votre téléphone, la proximité des lieux racontés, même application fermée, et affiche une notification quand vous passez près d'un lieu. Cette surveillance est faite par le système sur l'appareil : votre position n'est ni enregistrée ni transmise, ni à Flâneur ni à personne. Vous pouvez désactiver l'option, ou retirer l'autorisation dans les Réglages d'iOS, à tout moment.</p>
+
+    <h2>Ce que l'application télécharge, et qui peut le voir</h2>
+    <p>Dans la version actuelle, les voix, les musiques d'ambiance, la carte et le plan des rues utilisé pour le guidage à pied sont intégrés à l'application : elle fonctionne sans réseau, et rien n'est téléchargé pour les écouter ou vous guider.</p>
+    <ul>
+      <li><strong>seule exception, le fond de carte de secours</strong> : si la carte intégrée ne peut pas s'afficher, l'application demande les tuiles d'Esri (ArcGIS Online). Esri voit alors l'adresse IP de votre appareil et la zone de carte affichée, jamais votre position ;</li>
+      <li><strong>rien d'autre</strong> : les polices de caractères et les bibliothèques sont dans l'application, il n'y a ni outil de mesure d'audience, ni publicité, ni réseau social intégré.</li>
+    </ul>
+    <p>Si une version future chargeait les médias depuis un serveur, cette page nommerait l'hébergeur avant la mise en service.</p>
+
+    <h2>Achats</h2>
+    <p>Les tours narratifs premium sont vendus comme achats intégrés, encaissés par Apple (App Store) ou Google (Google Play). Flâneur ne voit ni votre moyen de paiement ni vos coordonnées bancaires ; seule la liste des tours que vous avez débloqués est lue depuis le magasin d'applications. Pendant la bêta, les tours sont offerts et aucun achat n'est proposé.</p>
+
+    <h2>Effacer vos données</h2>
+    <p>Dans l'application : Profil, puis « Effacer les données de cet appareil ». Cela supprime favoris, écoutes, points, réglages et narrations téléchargées. Désinstaller l'application a le même effet.</p>
+
+    <h2>Enfants</h2>
+    <p>Flâneur ne collecte aucune donnée personnelle et ne s'adresse pas spécifiquement aux enfants. Certaines narrations traitent de sujets historiques graves (déportation, esclavage, révolution).</p>
+
+    <h2>Contact</h2>
+    <p>Éditeur : Daniel Vo Thanh Tho. Pour toute question sur cette politique ou sur vos données : <a href="mailto:danielvothanhtho@gmail.com">danielvothanhtho@gmail.com</a>.</p>
+  </section>
+
+  <hr/>
+
+  <section id="en" lang="en">
+    <h1>Flâneur</h1>
+    <p class="sub">Privacy policy · version of 18 September 2026</p>
+
+    <p>Flâneur is a walking audio guide: places told by a voice, on a map. This page says, in plain words, what the app does with your data. It describes how the app actually works, not intentions.</p>
+
+    <h2>What stays on your device</h2>
+    <p>Your saved places, the places you have listened to, your points and level, where you stopped in a narration, your personal route, tours in progress and your settings (language, text size, appearance, sounds, play on approach) are stored only on your phone. There is no account, no identifier, and Flâneur never sends them anywhere.</p>
+    <p>As a consequence, uninstalling the app erases this progress, and it does not follow you from one device to another.</p>
+
+    <h2>Location</h2>
+    <p>Location is only requested when you tap “Locate me” or turn on “Play on approach” in settings. It is used on the device to sort places by distance, show your dot on the map and start a narration when you get close to a place. Flâneur does not store it and does not transmit it to anyone. When you open directions in your phone's maps app, only the destination's coordinates are passed on, never your position.</p>
+    <p><strong>Nearby notifications (optional).</strong> If you turn this option on in settings, Flâneur asks for “Always” location access. iOS then watches, on your phone, for the narrated places nearby, even with the app closed, and shows a notification when you pass close to one. This monitoring is done by the system on the device: your location is neither stored nor transmitted, to Flâneur or anyone else. You can turn the option off, or remove the permission in iOS Settings, at any time.</p>
+
+    <h2>What the app downloads, and who can see it</h2>
+    <p>In the current version, voices, ambient music, the map and the street plan used for walking directions are bundled inside the app: it works offline, and nothing is downloaded to listen or to guide you.</p>
+    <ul>
+      <li><strong>one exception, the fallback map</strong>: if the bundled map cannot be displayed, the app requests tiles from Esri (ArcGIS Online). Esri then sees your device's IP address and the map area shown, never your position;</li>
+      <li><strong>nothing else</strong>: fonts and libraries ship inside the app; there is no analytics, no advertising and no embedded social network.</li>
+    </ul>
+    <p>If a future version loaded media from a server, this page would name the host before it goes live.</p>
+
+    <h2>Purchases</h2>
+    <p>Premium narrated tours are sold as in-app purchases, processed by Apple (App Store) or Google (Google Play). Flâneur never sees your payment method or bank details; only the list of tours you have unlocked is read back from the store. During the beta, tours are free and no purchase is offered.</p>
+
+    <h2>Erasing your data</h2>
+    <p>In the app: Profile, then “Erase this device's data”. This removes saved places, listens, points, settings and downloaded narrations. Uninstalling the app has the same effect.</p>
+
+    <h2>Children</h2>
+    <p>Flâneur collects no personal data and is not specifically aimed at children. Some narrations deal with serious historical subjects (deportation, slavery, revolution).</p>
+
+    <h2>Contact</h2>
+    <p>Publisher: Daniel Vo Thanh Tho. For any question about this policy or your data: <a href="mailto:danielvothanhtho@gmail.com">danielvothanhtho@gmail.com</a>.</p>
+  </section>
+</main>
+</body>
+</html>
