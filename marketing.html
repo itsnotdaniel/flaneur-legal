@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Flâneur · Audioguide de marche</title>
+<meta name="description" content="Flâneur raconte la ville pendant que vous marchez. Un audioguide sans réseau, sans compte : la ville racontée à l'oreille, lieu après lieu."/>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@400;500;700&display=swap');
+  :root{color-scheme:light dark;--bg:#F7F1E8;--surface:#FFFFFF;--text:#1F1814;--sub:#6B5C4F;--accent:#C27C5D;--line:rgba(31,24,20,.10)}
+  @media (prefers-color-scheme:dark){:root{--bg:#1F1814;--surface:#2A211B;--text:#F7F1E8;--sub:#B6A698;--accent:#D88A6B;--line:rgba(247,241,232,.12)}}
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--text);font-family:'DM Sans',-apple-system,BlinkMacSystemFont,sans-serif}
+  a{color:inherit}
+  .serif{font-family:'Libre Baskerville',Georgia,serif}
+  header.hero{padding:96px 24px 80px;text-align:center;background:
+    radial-gradient(ellipse at 50% -10%, color-mix(in srgb, var(--accent) 22%, transparent), transparent 60%),
+    var(--bg);
+  }
+  .eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0 0 18px}
+  h1.brand{font-style:italic;font-weight:400;font-size:clamp(48px,9vw,88px);margin:0 0 20px;letter-spacing:-.01em}
+  .tagline{font-family:'Libre Baskerville',serif;font-style:italic;font-size:clamp(20px,3vw,28px);color:var(--sub);max-width:620px;margin:0 auto 28px;line-height:1.45}
+  .lede{max-width:520px;margin:0 auto 36px;color:var(--sub);font-size:16px;line-height:1.7}
+  .badge-row{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+  .pill{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:10px 20px;font-size:14px;font-weight:500;background:var(--surface)}
+  main{max-width:960px;margin:0 auto;padding:0 24px}
+  section.features{padding:64px 0;border-top:1px solid var(--line)}
+  .section-head{text-align:center;margin-bottom:48px}
+  .section-head .eyebrow{margin-bottom:10px}
+  .section-head h2{font-family:'Libre Baskerville',serif;font-style:italic;font-weight:400;font-size:clamp(28px,4vw,38px);margin:0}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:32px 28px}
+  .card .num{font-family:'Libre Baskerville',serif;font-style:italic;color:var(--accent);font-size:28px;margin:0 0 14px}
+  .card h3{margin:0 0 10px;font-size:19px}
+  .card p{margin:0;color:var(--sub);font-size:15px;line-height:1.6}
+  section.quote{padding:80px 24px;text-align:center;border-top:1px solid var(--line)}
+  section.quote blockquote{font-family:'Libre Baskerville',serif;font-style:italic;font-size:clamp(22px,3.4vw,32px);max-width:680px;margin:0 auto;line-height:1.5}
+  section.quote cite{display:block;margin-top:20px;font-style:normal;color:var(--sub);font-size:14px}
+  section.cities{padding:64px 24px;border-top:1px solid var(--line);text-align:center}
+  .city-list{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;max-width:680px;margin:0 auto}
+  .city-list span{border:1px solid var(--line);border-radius:999px;padding:8px 18px;font-size:14px;color:var(--sub)}
+  footer{border-top:1px solid var(--line);padding:48px 24px 64px;text-align:center;color:var(--sub);font-size:14px}
+  footer .links{display:flex;justify-content:center;gap:24px;margin-bottom:20px;flex-wrap:wrap}
+  footer a{text-decoration:underline}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <p class="eyebrow">Audioguide de marche</p>
+  <h1 class="brand serif">Flâneur</h1>
+  <p class="tagline">Chaque rue a une histoire.</p>
+  <p class="lede">Vous marchez, l'application repère les lieux autour de vous, et le récit se déclenche quand vous approchez — avec une musique d'ambiance choisie pour chaque endroit.</p>
+  <div class="badge-row">
+    <span class="pill">🎧 Sans réseau</span>
+    <span class="pill">🔒 Sans compte</span>
+    <span class="pill">📍 183 lieux en France</span>
+  </div>
+</header>
+
+<main>
+  <section class="features">
+    <div class="section-head">
+      <p class="eyebrow">Comment ça marche</p>
+      <h2>Trois gestes, une ville qui parle</h2>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <p class="num">01</p>
+        <h3>Ouvrez la carte</h3>
+        <p>Les lieux racontés apparaissent autour de vous, avec leurs tours guidés et leurs quartiers.</p>
+      </div>
+      <div class="card">
+        <p class="num">02</p>
+        <h3>Approchez-vous</h3>
+        <p>Le récit se déclenche seul quand vous arrivez, téléphone en poche, écran verrouillé.</p>
+      </div>
+      <div class="card">
+        <p class="num">03</p>
+        <h3>Écoutez, marchez</h3>
+        <p>Une voix, une musique d'ambiance, et l'histoire du lieu — tout est déjà dans l'application.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="quote">
+    <blockquote>« Le flâneur du XIX<sup>e</sup> siècle déambulait dans la ville lentement, curieusement, sans destination, observant, absorbant, comprenant. Flâneur rend cela possible partout. »</blockquote>
+    <cite>— le manifeste de l'application</cite>
+  </section>
+
+  <section class="cities">
+    <div class="section-head">
+      <p class="eyebrow">Déjà racontées</p>
+      <h2>Paris, Marseille, Bordeaux, Lyon…</h2>
+    </div>
+    <div class="city-list">
+      <span>Paris</span><span>Marseille</span><span>Bordeaux</span><span>Lyon</span>
+      <span>Toulouse</span><span>Strasbourg</span><span>Nantes</span><span>Versailles</span>
+      <span>Lille</span><span>37 tours guidés</span>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="links">
+    <a href="./index.html">Politique de confidentialité</a>
+    <a href="./support.html">Assistance</a>
+    <a href="mailto:danielvothanhtho@gmail.com">Nous écrire</a>
+  </div>
+  © 2026 Daniel Vo Thanh Tho
+</footer>
+
+</body>
+</html>
+
